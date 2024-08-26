@@ -155,7 +155,7 @@ const updateUsuario = async (req, res) => {
             console.error('Error updating pasante:', err);
             return res.status(500).send({ error: 'Error updating pasante' });
         }
-        res.status(200).send({ message: 'Pasante updated successfully' });
+        res.status(200).send({ message: 'Pasante comico' });
     });
 };
 
